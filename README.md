@@ -5,7 +5,7 @@
 This Python script scrapes the main waste categories listed on the HSY (Helsinki Region Environmental Services Authority) Waste Guide category page: 
 `https://www.hsy.fi/en/waste-and-recycling/waste-guide/waste-category/`
 
-It extracts the sorting order (based on sequence) and the category name for each item found on that page and saves the results into a CSV file named `hsy_waste_categories.csv`, suitable for opening in Excel. This dataset was compiled to link HSY waste categories with external data on waste management in the Helsinki region (for a future project).
+It extracts the sorting order (based on sequence) and the category name for each item found on that page and saves the results into a CSV file named `hsy_waste_categories.csv`, suitable for opening in Excel. **This dataset was compiled to link HSY waste categories with external data on waste management in the Helsinki region (for a future project).**
 
 ## Code
 ```python
