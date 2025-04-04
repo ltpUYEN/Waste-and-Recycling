@@ -72,46 +72,46 @@ if __name__ == "__main__":
         save_data_as_csv(waste_data)
 ```
 
-```csv
-order,category
-1,Asbestos
-2,Biowaste
-3,Brushwood
-4,Car battery
-5,Carton packages
-6,Construction waste
-7,End-of-life textiles
-8,End-of-life vehicles
-9,Garden waste
-10,Glass
-11,Gypsum waste
-12,Hazardous waste
-13,Impregnated wood
-14,Insulation wool
-15,Large objects
-16,Metal
-17,Mineral material
-18,Mixed waste
-19,Non-combustible waste
-20,Other waste
-21,Paper
-22,Pharmaceutical waste (hazardous waste)
-23,Plastic
-24,Plastic packaging waste
-25,Reusable items
-26,Sekajäte kiinteistöllä
-27,Small metal items
-28,Soil
-29,Tyres
-30,Waste electric and electronic equipment (WEEE)
-31,Waste that requires special handling
-32,Wood waste
+```
+| order | category                                   |
+|-------|--------------------------------------------|
+| 1     | Asbestos                                   |
+| 2     | Biowaste                                   |
+| 3     | Brushwood                                  |
+| 4     | Car battery                                |
+| 5     | Carton packages                            |
+| 6     | Construction waste                         |
+| 7     | End-of-life textiles                       |
+| 8     | End-of-life vehicles                       |
+| 9     | Garden waste                               |
+| 10    | Glass                                      |
+| 11    | Gypsum waste                               |
+| 12    | Hazardous waste                            |
+| 13    | Impregnated wood                           |
+| 14    | Insulation wool                            |
+| 15    | Large objects                              |
+| 16    | Metal                                      |
+| 17    | Mineral material                           |
+| 18    | Mixed waste                                |
+| 19    | Non-combustible waste                      |
+| 20    | Other waste                                |
+| 21    | Paper                                      |
+| 22    | Pharmaceutical waste (hazardous waste)     |
+| 23    | Plastic                                    |
+| 24    | Plastic packaging waste                    |
+| 25    | Reusable items                             |
+| 26    | Sekajäte kiinteistöllä                   |
+| 27    | Small metal items                          |
+| 28    | Soil                                       |
+| 29    | Tyres                                      |
+| 30    | Waste electric and electronic equipment (WEEE) |
+| 31    | Waste that requires special handling       |
+| 32    | Wood waste                                 |
 ```
 
 ## Features
 
 * Fetches HTML content from the specified HSY URL.
 * Parses the HTML using BeautifulSoup.
-* Selects category links based on the CSS selector `a.link-box`.
 * Extracts the category name and assigns a sequential sorting order.
 * Saves the extracted data (`order`, `category`) into a CSV file.
